@@ -33,19 +33,15 @@ Viral sequences prediction from contig ≥3 kb, and quality-checked following th
 Representative viral genomes were clustered at the species level (**vOTUs**) based on **Average Nucleotide Identity (ANI)**.
 
 ### 3. **[Viral protein prediction and functional annotation](https://github.com/Cris-du/RDPS/blob/main/Viral_ORF_prediction_and_protein_clustering/README.md)**
-Viral coding sequences were predicted and clustered into protein families for downstream comparative and functional analyses.
-
-### 4. **[Comparative analysis with other published ocean hydrothermal viral datasets](https://github.com/Cris-du/RDPS/blob/main/Viral_taxonomic_assignment/README.md)**
-Viral genomes were grouped into genera-level and family-level based on **Average Amino Acid Identity (AAI)**, with taxonomic assignment according to the **International Committee on Taxonomy of Viruses (ICTV)** framework.
+Viral coding sequences were predicted and clustered into protein families, with functional annotation performed against known protein datasets for downstream comparative and functional analyses.
 
 ### 5. **[Viral taxonomic assignment](https://github.com/Cris-du/RDPS/blob/main/Uniqueness_and_cross-Dataset_Comparison_of_GOHVGD/README.md)**
-The uniqueness and sharedness of GOHVGD at **vOTU**, **genus**, **family**, and **protein-clusters (PCs)** levels was evaluated against surface-ocean virus datasets: **Global Ocean Virome 2 (GOV2.0)** and previously published hydrothermal virus datasets (Cheng et al,. 2022, Langwig et al,. 2025). 
+Viral genomes with taxonomic assignment according to the **International Committee on Taxonomy of Viruses (ICTV)** framework.
 
 ### 6. **[Host prediction](https://github.com/Cris-du/RDPS/blob/main/Virus%E2%80%93Host_infective_relationship_prediction/README.md)**
 Viral–host infective relationship were inferred through:
 - **CRISPR-Spacer sequence matches**
-- **Whole-genome sequence matches**  
-between GOHVGD and GOHMGD genomes.
+- **Whole-genome sequence matches** between VentVirGenome and VentProkGenome genomes.
 
 ---
 
