@@ -1,4 +1,4 @@
-# 🧬 Supporting Materials for Manuscript: **VentVirGenome: A Global Ocean Hydrothermal Vent Virus Genome Dataset for Exploring Diversity, Function, and Host Interactions**
+# 🧬 Supporting Materials for Manuscript: **VentVirGenomess: A Global Ocean Hydrothermal Vent Virus Genome Dataset for Exploring Diversity, Function, and Host Interactions**
 
 ---
 
@@ -6,7 +6,7 @@
 
 This repository contains scripts, configurations, and auxiliary resources supporting the analyses presented in the manuscript:
 
-> **VentVirGenome: A Global Ocean Hydrothermal Vent Virus Genome Dataset for Exploring Diversity, Function, and Host Interactions**
+> **VentVirGenomes: A Global Ocean Hydrothermal Vent Virus Genome Dataset for Exploring Diversity, Function, and Host Interactions**
 
 The workflows described here cover viral and microbial genome assembly, quality control, viral prediction, host association, phylogenetic analysis and functional annotation.
 
@@ -14,17 +14,17 @@ The workflows described here cover viral and microbial genome assembly, quality 
 
 ## 📂 Data Availability
 
-- **VentVirGenome — Global Ocean Hydrothermal Vent Virus Genome Dataset**  
+- **VentVirGenomes — Global Ocean Hydrothermal Vent Virus Genome Dataset**  
   [OEZ00021625 (BioSino)](https://www.biosino.org/node/analysis/detail/OEZ00021625)
 
-- **VentProkGenome — Global Ocean Hydrothermal Vent Prokaryotes Genome Dataset**  
+- **VentProkGenomesss — Global Ocean Hydrothermal Vent Prokaryotes Genome Dataset**  
   [OEZ00021644 (BioSino)](https://www.biosino.org/node/analysis/detail/OEZ00021644)
 
 ---
 
 ## 💻 Code Availability and Workflow Summary
 
-### 1. **[Metagenomic assembly and binning](https://github.com/Cris-du/VentVirGenome/blob/main/Metagenomic%20assembly%20and%20binning/README.md)**
+### 1. **[Metagenomic assembly and binning](https://github.com/Cris-du/VentVirGenomes/blob/main/Metagenomic%20assembly%20and%20binning/README.md)**
 Metagenomic reads were assembled into contigs and contig ≥ 1 kb were binned into MAG (metagenomic assembly genome).  
 Microbial prediction, quality control and microbial taxonomic classification were performed for all bins.
 
@@ -41,7 +41,7 @@ Viral genomes with taxonomic assignment according to the **International Committ
 ### 5. **[Host prediction](https://github.com/Cris-du/RDPS/blob/main/Virus%E2%80%93Host_infective_relationship_prediction/README.md)**
 Viral–host infective relationship were inferred through:
 - **CRISPR-Spacer sequence matches**
-- **Whole-genome sequence matches** between VentVirGenome and VentProkGenome genomes.
+- **Whole-genome sequence matches** between VentVirGenomes and VentProkGenomesss genomes.
 
 
 
