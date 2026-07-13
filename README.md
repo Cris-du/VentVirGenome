@@ -15,10 +15,10 @@ The workflows described here cover viral and microbial genome assembly, quality 
 ## 📂 Data Availability
 
 - **VentVirGenomes — Global Ocean Hydrothermal Vent Virus Genome Dataset**  
-  [OEZ00021625 (BioSino)](https://www.biosino.org/node/analysis/detail/OEZ00021625)
+  [VentVirGenomes](https://doi.org/10.6084/m9.figshare.32593182)
 
 - **VentProkGenomesss — Global Ocean Hydrothermal Vent Prokaryotes Genome Dataset**  
-  [OEZ00021644 (BioSino)](https://www.biosino.org/node/analysis/detail/OEZ00021644)
+  [VentProkGenomes](https://doi.org/10.6084/m9.figshare.32593197)
 
 ---
 
