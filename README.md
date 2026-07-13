@@ -43,7 +43,5 @@ Viral–host infective relationship were inferred through:
 - **CRISPR-Spacer sequence matches**
 - **Whole-genome sequence matches** between VentVirGenome and VentProkGenome genomes.
 
----
 
-## 🧩 Repository Structure
 
