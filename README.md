@@ -24,21 +24,21 @@ The workflows described here cover viral and microbial genome assembly, quality 
 
 ## 💻 Code Availability and Workflow Summary
 
-### 1. **[Metagenomic assembly and binning](https://github.com/Cris-du/VentVirGenomes/blob/main/Metagenomic%20assembly%20and%20binning/README.md)**
+### 1. **[Metagenomic assembly and binning](./Metagenomic%20assembly%20and%20binning/README.md)**
 Metagenomic reads were assembled into contigs and contig ≥ 1 kb were binned into MAG (metagenomic assembly genome).  
 Microbial prediction, quality control and microbial taxonomic classification were performed for all bins.
 
-### 2. **[Viral sequence identification and clustering clustering](https://github.com/Cris-du/RDPS/blob/main/Viral_prediction_and_vOTU_clustering/README.md)**
+### 2. **[Viral sequence identification and vOTU clustering](./Viral%20sequence%20identification%20and%20clustering%20clustering/README.md)**
 Viral sequences prediction from contig ≥3 kb, and quality-checked following the pipeline described in the manuscript.  
 Representative viral genomes were clustered at the species level (**vOTUs**) based on **Average Nucleotide Identity (ANI)**.
 
-### 3. **[Viral protein prediction and functional annotation](https://github.com/Cris-du/RDPS/blob/main/Viral_ORF_prediction_and_protein_clustering/README.md)**
+### 3. **[Viral protein prediction and functional annotation](./Viral%20protein%20prediction%20and%20functional%20annotation/README.md)**
 Viral coding sequences were predicted and clustered into protein families, with functional annotation performed against known protein datasets for downstream comparative and functional analyses.
 
-### 4. **[Viral taxonomic assignment](https://github.com/Cris-du/RDPS/blob/main/Uniqueness_and_cross-Dataset_Comparison_of_GOHVGD/README.md)**
+### 4. **[Viral taxonomic assignment](./Viral%20taxonomic%20assignment/README.md)**
 Viral genomes with taxonomic assignment according to the **International Committee on Taxonomy of Viruses (ICTV)** framework.
 
-### 5. **[Host prediction](https://github.com/Cris-du/RDPS/blob/main/Virus%E2%80%93Host_infective_relationship_prediction/README.md)**
+### 5. **[Host prediction](./Host%20prediction/README.md)**
 Viral–host infective relationship were inferred through:
 - **CRISPR-Spacer sequence matches**
 - **Whole-genome sequence matches** between VentVirGenomes and VentProkGenomes genomes.
