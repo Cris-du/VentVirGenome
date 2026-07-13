@@ -49,13 +49,13 @@ virsorter2.sif run --seqname-suffix-off --viral-gene-enrich-off --provirus-off -
 ```
 DRAM-v viral protein annotation:  
 ```
-DRAM-v.py annotate -i ./VentVirGenome_vOTU_precontigs_virsoter2_out/for-dramv/final-viral-combined-for-dramv.fa -v ./VentVirGenome_vOTU_precontigs_virsoter2_out/for-dramv/viral-affi-contigs-for-dramv.tab -o ./VentVirGenome_vOTU_precontigs_virsoter2_dramv_annot --skip_trnascan --threads 40 --min_contig_size 0
+DRAM-v.py annotate -i ./VentVirGenome_vOTU_precontigs_virsorter2_out/for-dramv/final-viral-combined-for-dramv.fa -v ./VentVirGenome_vOTU_precontigs_virsorter2_out/for-dramv/viral-affi-contigs-for-dramv.tab -o ./VentVirGenome_vOTU_precontigs_virsorter2_dramv_annot --skip_trnascan --threads 40 --min_contig_size 0
 ```
 
 ### Recalling functional diversity annotation and AMG identification results for VentVirGenome vOTU representative contig original protein dataset    
 Build diamond blastp reference database:  
 ```
-diamond makedb --in ./VentVirGenome_vOTU_precontigs_virsoter2_dramv_annot/genes.faa --db ./VentVirGenome_vOTU_precontigs_dramv_protein_db --threads 4
+diamond makedb --in ./VentVirGenome_vOTU_precontigs_virsorter2_dramv_annot/genes.faa --db ./VentVirGenome_vOTU_precontigs_dramv_protein_db --threads 4
 ```
 Perform diamond blastp recall alignment:  
 ```
@@ -65,4 +65,4 @@ Extract corresponding results for identical viral protein names:
 ```
 cut -f1,2 VentVirGenome_vOTU_precontigs_protein_map_dramv_out_blastp.txt > VentVirGenome_vOTU_precontigs_protein_map_dramv_protein_seqname_map.txt
 ```
-Based on `VentVirGenome_vOTU_precontigs_protein_map_dramv_protein_seqname_map.txt`, recall VentVirGenome results from `./VentVirGenome_vOTU_precontigs_virsoter2_dramv_annot/annotations.tsv` and `VentVirGenome_vOTU_precontigs_raw_amg.txt` to obtain the final protein functional annotation and AMG annotation results for VentVirGenome.  
+Based on `VentVirGenome_vOTU_precontigs_protein_map_dramv_protein_seqname_map.txt`, recall VentVirGenome results from `./VentVirGenome_vOTU_precontigs_virsorter2_dramv_annot/annotations.tsv` and `VentVirGenome_vOTU_precontigs_raw_amg.txt` to obtain the final protein functional annotation and AMG annotation results for VentVirGenome.  
