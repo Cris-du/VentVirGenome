@@ -5,7 +5,7 @@
 `CRT-mod version 2.0rev1`, the built-in CRISPR-spacer identification tool is [CRT](https://www.room220.com/crt/). Refer to [CRT-mod](https://github.com/caseyh/crt-mod) for configuration.  
 
 ### For running blastn  
-`blastn 2.12.0+`, refer to [blastn+](https://ftp.ncbi.nlm.nih.gov/blastn/executables/blastn+/2.12.0/) for configuration.  
+`blastn 2.12.0+`, refer to [blastn+](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.12.0/) for configuration.  
 
 ### You need to be able to run the following command  
 `blastn`  
@@ -31,7 +31,7 @@ python ./crt-mod.py -i bin_id.fna fasta -o bin_id_CRISPRs_raw_report.txt --threa
 Extract and standardize CRISPR-SPACER sequence results for VentProkGenome:  
 ```
 python ./trans_format_report.py -i bin_id_CRISPRs_raw_report.txt -o bin_id_trans_CRISPRs_report.txt
-python ./standard_CRISPRs_raw_report.py -i bin_id_trans_CRISPRs_report.txt -o bin_id_standard_raw_CRISPRs.fna
+python ./extract_spacer_seq.py -i bin_id_trans_CRISPRs_report.txt -o bin_id_standard_raw_CRISPRs.fna
 ```
 Filter for CRISPR clusters containing ≥3 spacer sequences:  
 ```
@@ -41,7 +41,7 @@ python ./filter_3_spacers.py -i bin_id_standard_raw_CRISPRs.fna -o bin_id_standa
 ### VentVirGenome-VentProkGenome Virus-Host identification  
 Build the blastn database for VentVirGenome:
 ```
-makeblastndb -in VentVirGenome_all_viral_contigs.fna -dbtype nucl -out ./VentVirGenome_all_viral_contigs_db
+makeblastdb -in VentVirGenome_all_viral_contigs.fna -dbtype nucl -out ./VentVirGenome_all_viral_contigs_db
 ```
 #### Virus-Host identification based on CRISPR-SPACER blastn  
 Perform blastn alignment between VentProkGenome CRISPR-SPACER sequences and VentVirGenome:  
