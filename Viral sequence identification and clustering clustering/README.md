@@ -79,9 +79,9 @@ calculate pairwise ANI by combining local alignments between sequence pairs
 ```
 anicalc.py -i sample_id_blastn.txt -o sample_id_ani.txt
 ```
-Merage all `sample_id_ani.tsv` into `VentVirGenome_ani.txt`  
+Merage all `sample_id_ani.txt` into `VentVirGenome_ani.txt`  
 ```
-(head -n 1 ./VentVirGenome_ani_dir/*.txt | head -n 1 && tail -n +2 -q ./VentVirGenome_ani_dir/*.txt) > merged.txt
+(head -n 1 ./VentVirGenome_ani_dir/*.txt | head -n 1 && tail -n +2 -q ./VentVirGenome_ani_dir/*.txt) > VentVirGenome_ani.txt
 ```
 Finally, perform CD-HIT-like clustering using the MIUVIG recommended-parameters (95% ANI + 85% AF):  
 ```
