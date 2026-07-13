@@ -1,4 +1,4 @@
-# 🧬 Supporting Materials for Manuscript: **VentVirGenomess: A Global Ocean Hydrothermal Vent Virus Genome Dataset for Exploring Diversity, Function, and Host Interactions**
+# 🧬 Supporting Materials for Manuscript: **VentVirGenomes: A Global Ocean Hydrothermal Vent Virus Genome Dataset for Exploring Diversity, Function, and Host Interactions**
 
 ---
 
@@ -17,7 +17,7 @@ The workflows described here cover viral and microbial genome assembly, quality 
 - **VentVirGenomes — Global Ocean Hydrothermal Vent Virus Genome Dataset**  
   [VentVirGenomes](https://doi.org/10.6084/m9.figshare.32593182)
 
-- **VentProkGenomesss — Global Ocean Hydrothermal Vent Prokaryotes Genome Dataset**  
+- **VentProkGenomes — Global Ocean Hydrothermal Vent Prokaryotes Genome Dataset**  
   [VentProkGenomes](https://doi.org/10.6084/m9.figshare.32593197)
 
 ---
@@ -41,7 +41,7 @@ Viral genomes with taxonomic assignment according to the **International Committ
 ### 5. **[Host prediction](https://github.com/Cris-du/RDPS/blob/main/Virus%E2%80%93Host_infective_relationship_prediction/README.md)**
 Viral–host infective relationship were inferred through:
 - **CRISPR-Spacer sequence matches**
-- **Whole-genome sequence matches** between VentVirGenomes and VentProkGenomesss genomes.
+- **Whole-genome sequence matches** between VentVirGenomes and VentProkGenomes genomes.
 
 
 
